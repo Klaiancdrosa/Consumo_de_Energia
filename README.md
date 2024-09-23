@@ -2,7 +2,11 @@
 -------------------------------------------------
 Desenvolvido para ajudar no cálculo de consumo de energia e custo da mesma.
 
+![C1](https://github.com/user-attachments/assets/ccc7eb0f-9db5-4f45-8bf3-e33876966879)
 
+![C2](https://github.com/user-attachments/assets/fe884068-ff21-4fe5-9986-6355ee2a50a3)
+
+![C3](https://github.com/user-attachments/assets/a08085c5-c794-4478-9f69-05d3f3caa25f)
 
 ---------------------------------------------------
 ## O Que foi utilizado:
