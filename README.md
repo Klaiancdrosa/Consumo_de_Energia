@@ -1,32 +1,61 @@
-# Projeto Calculadora de Consumo de Energia e Custo
--------------------------------------------------
-Desenvolvido para ajudar no cálculo de consumo de energia e custo da mesma.
+# **App Consumo de Energia**
+&gt; Desenvolvido para ajudar no cálculo de consumo de energia e custo da mesma.
 
-![C1](https://github.com/user-attachments/assets/ccc7eb0f-9db5-4f45-8bf3-e33876966879)
+## Descrição
+O **App Calculo de Consumo** permite ao usuário saber o custo e o consumo de energia inserindo as informações necessárias para o cálculo.
 
-![C2](https://github.com/user-attachments/assets/fe884068-ff21-4fe5-9986-6355ee2a50a3)
+## Funcionalidades
+- [x] Entrada de dados (Potência, Tempo de uso, Preço do Kwh)
+- [x] Interface simples e intuitiva
 
-![C3](https://github.com/user-attachments/assets/a08085c5-c794-4478-9f69-05d3f3caa25f)
+## Tecnologias Utilizadas
+- [x] **Android Studio** (Koala | 2024.1.2)
+- [x] **Java** para desenvolvimento
+- [x] **FrameLayout** para interface responsiva
+- [x] **TextView** e **EditText** para entrada e exibição de dados
+      
+## Como Rodar o Projeto
+Siga os passos abaixo para rodar o projeto localmente:
 
----------------------------------------------------
-## O Que foi utilizado:
+1. Clone este repositório:
+```bash
+git clone https://github.com/Klaiancdrosa/Consumo_de_Energia.git
+```
+2. Abra o projeto no Android Studio.
+3. Compile e execute o projeto em um emulador ou dispositivo físico.
+   
+## Estrutura do Projeto
+```bash
+├── app
+│ ├── src
+│ │ ├── main
+│ │ │ ├── java
+| | | | |── com.example.consumoenergia
+│ │ │ │ | ├── MainActivity.java # Atividade aonde ocorre o cálculo do consumo e custo de energia.
+| │ │ │ ├── res
+| | | | ├── drawable # imagens e icones utilizados na tela principal
+│ │ │ │ ├── layout
+│ │ │ │ | ├── activity_main.xml # Layout da tela principal
+│ │ │ │ └── values
+│ │ │ │ ├── strings.xml # Strings usadas no app
+│ │ │ │ ├── colors.xml # Cores definidas no projeto
+│ └── build.gradle # Configuração do Gradle
+└── README.md # Este arquivo
+```
 
-Backend: Java
+## Design e Prototipage
+A interface do app foi criada usando **FrameLayout**;
+O design é minimalista e fácil de usar, com foco na simplicidade e entendimento.
 
----------------------------------------------------
+## Telas do App Hamburgueria
+**Tela Principal**
+Tela principal aonde o usuário poderá inserir as informações necessárias para saber o custo e o consumo de energia.
 
-## IDE:
+![image](https://github.com/user-attachments/assets/8f59fef4-bd32-45a8-8d38-76183c6f1997)
 
-Android Studio
+## Desenvolvedores
+**Klaian Conceição da Rosa** - Desenvolvedor - [GitHub](https://github.com/Klaiancdrosa)
 
----------------------------------------------------
-## Autor:
-
-https://github.com/Klaiancdrosa
-
----------------------------------------------------
-## Comentário:
-
- Meu segundo projeto feito no Android Studio, dessa vez não utilizando o Figma como
- Design principal, esse projeto tem como objetivo uma Calculadora de Consumo de Energia e Custo, e pelo
- visto meu pc não reinicou nenhuma vez dessa vez :sunglasses:
+## Licenças
+Este projeto está licenciado sob os termos da licença MIT. Para mais detalhes, veja o arquivo
+[LICENSE](LICENSE).
